@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.file-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  font-size: 20px;
+}
+
+.content {
+  margin-top: 10px;
+  padding: 0px 30px 0px 30px;
+  color: black;
+}
+
+.content a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.content a:hover{
+  color:black;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content li {
+  background-color: #f0f0f0; /* Set background color for the box */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+  width: 100%;
+  border-radius: 10px; /* Add rounded corners */
+  box-sizing: border-box;
+}
+
+.content li:hover {
+  background-color: #9AD1E2; 
+}
+
+.fileList {
+  padding: 0px 0px 0px 30px;
+  font-size: 35px;
+  color: #111111;
+  margin-bottom: 10px;
+}
