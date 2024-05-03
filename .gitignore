@@ -21,3 +21,4 @@ node_modules/
 
 # Yarn lock file
 yarn.lock
+.vercel

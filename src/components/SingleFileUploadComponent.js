@@ -19,7 +19,7 @@ function SingleFileUploadComponent(props) {
     console.log(username);
     setResult("Processing Upload")
     //const response = await fetch('http://127.0.0.1/transcribe', {
-    const response = await fetch('https://23.22.153.179/transcribe', {
+    const response = await fetch('https://100.24.62.128/transcribe', {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
